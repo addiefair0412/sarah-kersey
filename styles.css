@@ -1,0 +1,71 @@
+@font-face {
+  font-family: Pacifico;
+  src: url("Pacifico copy 2/Pacifico-Regular.ttf")
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-family: Pacifico, cursive;
+    letter-spacing: 5px;
+    font-size: 70px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 8px #0081AC;
+    text-decoration-line: underline;
+}
+
+.cover {
+    background: url("https://res.cloudinary.com/fluidartprojects/image/upload/f_auto,q_auto/w_1020,h_685,c_fill,g_auto/v1553984681/cells-acrylic-pouring-painting_afukoq.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container {
+    max-width: 50%;
+    
+    border-radius: 5%;
+    padding: 40px 100px;
+    margin: 200px auto;
+    overflow: scroll;
+    display: content-box;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navlink {
+   color: white;
+   transition: 0.5s ease;
+  font-size: 40px;
+  text-decoration: none;
+  padding: 20px 0;
+  margin: 20px 15px 0 15px;
+    border-top: 4px solid rgba(0, 0, 0, 0);
+  border-bottom: 4px solid rgba(0, 0, 0, 0);
+    font-family: Pacifico, cursive;
+    font-weight: 100;
+    text-shadow: 2px 2px 8px #0081AC;
+}
+
+.navlink:hover {
+    color: #FFA384;
+    border-top: 4px solid #FFA384;
+  border-bottom: 4px solid #FFA384;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    text-shadow: 0 0 0 white;
+}
+a {
+    color: black;
+}
