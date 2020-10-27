@@ -8,7 +8,7 @@ header {
 
 @font-face {
   font-family: Pacifico;
-  src: url("Pacifico/Pacifico-Regular.ttf")
+  src: url("Pacifico-Regular.ttf")
 }
 
 h2 {
@@ -27,6 +27,11 @@ h2 {
 nav {
     display: flex;
     justify-content: center;
+}
+
+@font-face {
+  font-family: Pacifico;
+  src: url("Pacifico-Regular.ttf")
 }
 
 .navlink {
@@ -82,12 +87,12 @@ img {
 
 @font-face {
   font-family: OpenSansSB;
-  src: url("Open_Sans/OpenSans-SemiBold.ttf")
+  src: url("OpenSans-SemiBold.ttf")
 }
 
 @font-face {
   font-family: OpenSansSB;
-  src: url("Open_Sans/OpenSans-Light.ttf")
+  src: url("OpenSans-Light.ttf")
 }
 
 p {
