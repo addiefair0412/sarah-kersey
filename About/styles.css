@@ -54,7 +54,15 @@ nav {
 
 
 
+@font-face {
+  font-family: OpenSansSB;
+  src: url("OpenSans-SemiBold.ttf")
+}
 
+@font-face {
+  font-family: OpenSansL;
+  src: url("OpenSans-Light.ttf")
+}
 
 
 h3 {
@@ -78,16 +86,6 @@ img {
     margin-top: 50px;
     display: block;
     
-}
-
-@font-face {
-  font-family: OpenSansSB;
-  src: url("OpenSans-SemiBold.ttf")
-}
-
-@font-face {
-  font-family: OpenSansSB;
-  src: url("OpenSans-Light.ttf")
 }
 
 p {
