@@ -109,4 +109,9 @@ p {
     color: white;
 }
 
+footer {
+ width: 100%;
+ display: block;
+}
+
 
