@@ -193,3 +193,29 @@ a:visited {
 .bottom {
     margin-bottom: 180px;
 }
+
+.footer {
+  display: flex;
+    margin: 250px 40% 150px 40%;
+}
+
+.column {
+  flex: 50%;
+    padding: 0 15px;
+}
+
+.email {
+    height: 48px;
+    width: 48px;
+    float: right;
+    padding-right: 20px;
+    
+}
+
+.linkedin {
+    height: 48px;
+    padding-left: 20px;
+    float: left;
+}
+
+
