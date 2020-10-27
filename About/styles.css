@@ -1,0 +1,114 @@
+header {
+ background:url("https://res.cloudinary.com/fluidartprojects/image/upload/f_auto,q_auto/w_1020,h_685,c_fill,g_auto/v1553984681/cells-acrylic-pouring-painting_afukoq.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 280px;
+    width: 100%;
+}
+
+@font-face {
+  font-family: Pacifico;
+  src: url("Pacifico/Pacifico-Regular.ttf")
+}
+
+h2 {
+    font-family: Pacifico, cursive;
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 70px;
+    font-weight: 100;
+    padding-top: 60px;
+    text-shadow: 2px 2px 8px #0081AC;
+    text-decoration-line: underline;
+    margin-bottom: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.navlink {
+   color: white;
+   transition: 0.5s ease;
+  font-size: 26px;
+  text-decoration: none;
+  margin: 0 45px;
+    border-top: 4px solid rgba(0, 0, 0, 0);
+  border-bottom: 4px solid rgba(0, 0, 0, 0);
+    font-family: Pacifico, cursive;
+    font-weight: 100;
+    padding: 20px 0;
+}
+
+.navlink:hover {
+    color: #FFA384;
+    border-top: 4px solid #FFA384;
+  border-bottom: 4px solid #FFA384;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 8px #0081AC;
+}
+
+
+
+
+
+
+
+h3 {
+    line-height: 50px;
+    font-size: 45px;
+    margin-left: 45%;
+    font-family: OpenSansSB, cursive;
+    color: #1592B4;
+    font-weight: 100;
+    margin-top: 50px;
+}
+
+
+
+img {
+    float: left;
+    border-radius: 100%;
+    width: 30%;
+    margin: 50px 80px 80px 80px;
+    margin-right: 80px;
+    margin-top: 50px;
+    display: block;
+    
+}
+
+@font-face {
+  font-family: OpenSansSB;
+  src: url("Open_Sans/OpenSans-SemiBold.ttf")
+}
+
+@font-face {
+  font-family: OpenSansL;
+  src: url("Open_Sans/OpenSans-Light.ttf")
+}
+
+p {
+    margin-right: 80px;
+    margin-left: 80px;
+    font-family: OpenSansL, monospace;
+    color: #a9a9a9;
+}
+
+
+
+.container {
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5%;
+    padding: 40px;
+    margin: 200px auto;
+    overflow: scroll;
+    display: content-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+
